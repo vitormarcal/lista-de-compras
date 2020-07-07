@@ -8,7 +8,64 @@
 </head>
 <body>
 
+    <header>
+        <h1>
+            <span>Minha lista de compras do mês </span>
+        </h1>
+        <p>Todas as minhas compras do mês. Rastreadas em uma lista. </p>
+    </header>
+
+    <main>
+
+        <section class="info-month">
+            <h2 class="info-month__title">Last Month 
+                <span>(</span>
+                <span class="info-month__number-itens">5</span>
+                <span>)</span>
+            </h2>
     
+            <p class="info-month__last-modified">Last modified: <span class="info-month__last-modified--bold">30 Jun 2020 04:59 PM</span></p>
+        </section>
+        
+
+        <section class="new_item">
+                <label for="description" class="new_item__description">Add new item</label>        
+                <input type="text" name="description" class="new_item__input">
+        </section>
+        
+
+        <ul class="item-list">
+            <li class="item">
+                <p>Compras Amazon</p>
+                <p>Valor: <span>R$50,00</span></p>
+                <p>Data da compra: <span>30 Jun 2020 04:59 PM</span></p>
+            </li>
+
+            <li class="item">
+                <p class="item__name">Compras Carrefour</p>
+                <p class="item__price">Valor: <span class="item__price--bold">R$150,00</span></p>
+                <p class="item__buy-date">Data da compra: <span class="item__buy-date--bold">30 Jun 2020 04:59 PM</span></p>
+            </li>
+
+            <li class="item">
+                <p class="item__name">Compras Submarino</p>
+                <p class="item__price">Valor: <span>R$70,00</span></p>
+                <p class="item__buy-date">Data da compra: <span class="item__buy-date--bold">30 Jun 2020 04:59 PM</span></p>
+            </li>
+
+            <li class="item">
+                <p class="item__name">Compras Shoptime</p>
+                <p class="item__price">Valor: <span>R$50,00</span></p>
+                <p class="item__buy-date">Data da compra: <span class="item__buy-date--bold">30 Jun 2020 04:59 PM</span></p>
+            </li>
+
+        </ul>
+
+    </main> 
+
+    <footer>
+        <p>Desenvolvido por <a href="https://www.vitormarcal.com.br" target="_blank">Vítor Marçal</a></p>
+    </footer>
     
 </body>
 </html>
